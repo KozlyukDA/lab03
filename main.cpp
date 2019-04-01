@@ -74,6 +74,22 @@ int show_histogram_text(vector<size_t> bins)
 
     return 0;
 }
+void
+svg_begin(double width, double height) {
+    cout << "<?xml version='1.0' encoding='UTF-8'?>\n";
+    cout << "<svg width='" << width << "' << height='" << height<< "' "
+         << "viewBox='0 0 " << width << " " << height << "' "
+         << "xmlns='http://www.w3.org/2000/svg'>\n";
+}
+void
+svg_end() {
+    cout << "</svg>\n";
+}
+void
+show_histogram_svg(const vector<size_t>& bins) {
+    svg_begin(400, 300);
+    svg_end();
+}
 int main() {
     // Ввод данных
     size_t number_count;
@@ -87,5 +103,5 @@ int main() {
     // Обработка данных
     const auto bins = make_histogram(numbers, bin_count);
     // Вывод данных
-    show_histogram_text(bins);
+    show_histogram_svg(bins);
 }
