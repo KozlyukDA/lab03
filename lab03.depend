@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1555254501 source:c:\users\romau\desktop\lab03\main.cpp
+	"hist.h"
+	<iostream>
+	<vector>
+
+1555254541 c:\users\romau\desktop\lab03\hist.h
+	<vector>
+

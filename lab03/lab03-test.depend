@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1555254956 source:c:\users\romau\desktop\lab03\hist.cpp
+	"hist.h"
+
+1555254956 c:\users\romau\desktop\lab03\hist.h
+	<vector>
+
+1555254776 source:c:\users\romau\desktop\lab03\lab03\test.cpp
+	"hist.h"
+	<cassert>
+
+1555254541 c:\users\romau\desktop\lab03\lab03\hist.h
+	<vector>
+
