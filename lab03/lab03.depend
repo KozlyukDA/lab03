@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1555312475 source:c:\users\u211-02\desktop\roma\lab03\hist.cpp
+	"hist.h"
+	<iostream>
+
+1555312402 c:\users\u211-02\desktop\roma\lab03\hist.h
+	<vector>
+
+1555312296 source:c:\users\u211-02\desktop\roma\lab03\main.cpp
+	"svg.h"
+	"hist.h"
+	<iostream>
+	<vector>
+
+1555311796 c:\users\u211-02\desktop\roma\lab03\svg.h
+	<vector>
+	<iostream>
+
